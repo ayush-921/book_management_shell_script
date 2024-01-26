@@ -18,11 +18,16 @@ including adding books, modifying book details, searching by different criteria,
 
 ### 3. Modifying Book Details (`modify.sh`)
 
-- work in progress
+- If a book number exist all the field can be modified
+- User will be promted sequentially for new value for each field if left empty then no     modification on that field
+- All the field are validated if validation fails then value is not updated
+- Mulitple fields can be modified
 
 ### 4. Deleting Books by Book Number (`delete.sh`)
 
-- work in progress
+- Deletes the book record if the book number entered by user is correct
+- The deletion is interactive
+- Multilple records can be deleted
 
 ### 5. Viewing or Searching the data (`view.sh`)
 
